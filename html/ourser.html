@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Grid</title>
+  <style>
+    body {
+      background-color: rgb(0, 51, 102);
+    }
+    .image-grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-grid .image-container {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .image-grid .image-container img {
+      margin-top: 2cm;
+      width: 600px; /* Double the original width */
+      height: 400px; /* Double the original height */
+      border-radius: 20px;
+    }
+
+    .image-grid .caption {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .image-grid .button-container {
+      margin-top: 10px;
+      text-align: center;
+      margin-top: 1cm;
+    }
+
+    .image-grid .button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+     
+    }
+
+    .image-grid .button:hover {
+      background-color: #555;
+    }
+    footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255); color:  rgb(0, 51, 102);
+    margin-top: 21cm;
+  }
+  </style>
+</head>
+<body>
+  <div class="image-grid">
+    <div class="image-container" style="margin-bottom: -24cm; ">
+      <img src="../images/3.jpg" alt="Image 1">
+      <div class="head" style="font-weight:bolder; color:  #fff; font-size: 1.2cm;">Job Listing</div>
+      <div class="caption" style="color: #fff; font-size: 0.6cm;">We got more jobs to offer, Explore it</div>
+      <div class="button-container">
+        <a href="#" class="button" style="background-color: rgb(255, 153, 51);">More info</a>
+      </div>
+    </div>
+    <div class="image-container" style="margin-bottom: -24cm;">
+      <img src="../images/2.jpg" alt="Image 2">
+      <div class="head" style="font-weight:bolder; color:  #fff; font-size: 1.2cm;">Resume Upload</div>
+      <div class="caption" style="font-size: 0.6cm; color: #fff;">Upload your resume to reach more offers..</div>
+      <div class="button-container" >
+        <a href="#" class="button" style="background-color: rgb(255, 153, 51);" >More info</a>
+      </div>
+    </div>
+    <div class="image-container" style="margin-bottom: -24cm;">
+      <img src="../images/1.jpg" alt="Image 3">
+      <div class="head" style="font-weight:bolder; color:  #fff; font-size: 1.2cm;">Job Recritment</div>
+      <div class="caption" style="color: #fff; font-size: 0.6cm;">Put job opportunities here.</div>
+      <div class="button-container">
+        <a href="#" class="button" style="background-color: rgb(255, 153, 51);">More info</a>
+      </div>
+    </div>
+  </div>
+  <div class ="nah" style="color: #fff; font-weight: bolder; font-size: 2cm;margin-left: 0cm;margin-top: 2cm;">Our Services</div>
+  <footer>
+    <p>&copy; 2023 Job Portal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
